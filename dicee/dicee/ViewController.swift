@@ -25,8 +25,6 @@ class ViewController: UIViewController {
         diceImageView2.image = imageArray[rightRandom];
         
         // print("length of imageArray \(imageArray.count)")
-        
-        return;
     }
 }
 
