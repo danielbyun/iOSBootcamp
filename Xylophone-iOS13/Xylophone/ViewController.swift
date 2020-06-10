@@ -12,44 +12,46 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    // C button
+    // button
     @IBAction func keyPressed(_ sender: UIButton) {
-        
         sender.alpha = 0.5;
         
-        UIView.animate(withDuration: 1.5) {
+        UIView.animate(withDuration: 0.5) {
             sender.alpha = 1.0
         }
         
-        // get button title value
+        // get title value of all buttons
         if let buttonTitle = sender.title(for: .normal) {
-            playSound(buttonTitle);
+            // play the sound for each note
+            playSound(note: buttonTitle);
         }
-        
     }
     
-    func playSound(_ note: String) {
+    
+    // sound playing function
+    func playSound(note: String) {
         guard let url = Bundle.main.url(forResource: note, withExtension: "wav") else { return }
         
         do {
+            // playback happens even when in silent mode
+            // need to set the specific category to the session
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
             try AVAudioSession.sharedInstance().setActive(true)
             
-            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
-            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly */
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.wav.rawValue)
             
+            // not supporting any devices that run iOS 10 and ealier.
             /* iOS 10 and earlier require the following line:
              player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
             
             guard let player = player else { return }
             
             player.play()
-            
         } catch let error {
             print(error.localizedDescription)
         }
