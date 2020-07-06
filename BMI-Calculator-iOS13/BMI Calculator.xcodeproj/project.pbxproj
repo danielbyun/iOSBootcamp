@@ -7,33 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD7631D422FC5E7E00C6E71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */; };
-		AD7631D622FC5E7E00C6E71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */; };
-		AD7631D822FC5E7E00C6E71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D722FC5E7E00C6E71B /* ViewController.swift */; };
-		AD7631DB22FC5E7E00C6E71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7631D922FC5E7E00C6E71B /* Main.storyboard */; };
-		AD7631DD22FC5E8300C6E71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7631DC22FC5E8300C6E71B /* Assets.xcassets */; };
-		AD7631E022FC5E8300C6E71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7631DE22FC5E8300C6E71B /* LaunchScreen.storyboard */; };
-		AD7631EA22FC64C100C6E71B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631E922FC64C100C6E71B /* Story.swift */; };
-		AD7631ED22FC64E400C6E71B /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631EC22FC64E400C6E71B /* StoryBrain.swift */; };
-		AD7631EF22FC656600C6E71B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7631EE22FC656600C6E71B /* README.md */; };
+		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
+		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
+		AD0B9F7E230D61800065EFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* ViewController.swift */; };
+		AD0B9F81230D61800065EFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F7F230D61800065EFD9 /* Main.storyboard */; };
+		AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F82230D61840065EFD9 /* Assets.xcassets */; };
+		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
+		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD7631D722FC5E7E00C6E71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD7631DA22FC5E7E00C6E71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD7631DC22FC5E8300C6E71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD7631DF22FC5E8300C6E71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AD7631E122FC5E8300C6E71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD7631E922FC64C100C6E71B /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		AD7631EC22FC64E400C6E71B /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
-		AD7631EE22FC656600C6E71B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD0B9F76230D61800065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD0B9F7D230D61800065EFD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0B9F80230D61800065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0B9F82230D61840065EFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0B9F85230D61840065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD7631CD22FC5E7E00C6E71B /* Frameworks */ = {
+		AD0B9F73230D61800065EFD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,99 +39,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD7631C722FC5E7D00C6E71B = {
+		AD0B9F6D230D61800065EFD9 = {
 			isa = PBXGroup;
 			children = (
-				AD7631EE22FC656600C6E71B /* README.md */,
-				AD7631D222FC5E7E00C6E71B /* Destini-iOS13 */,
-				AD7631D122FC5E7E00C6E71B /* Products */,
+				AD6435992312D0BC00E22B00 /* README.md */,
+				AD0B9F78230D61800065EFD9 /* BMI Calculator */,
+				AD0B9F77230D61800065EFD9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AD7631D122FC5E7E00C6E71B /* Products */ = {
+		AD0B9F77230D61800065EFD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */,
+				AD0B9F76230D61800065EFD9 /* BMI Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD7631D222FC5E7E00C6E71B /* Destini-iOS13 */ = {
+		AD0B9F78230D61800065EFD9 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */,
-				AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */,
-				AD7631EB22FC64C900C6E71B /* Model */,
-				AD7631E822FC64AB00C6E71B /* View */,
-				AD7631E722FC64A100C6E71B /* Controller */,
-				AD7631DC22FC5E8300C6E71B /* Assets.xcassets */,
-				AD7631DE22FC5E8300C6E71B /* LaunchScreen.storyboard */,
-				AD7631E122FC5E8300C6E71B /* Info.plist */,
+				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
+				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
+				AD0B9F8F230D63EA0065EFD9 /* Models */,
+				AD0B9F8E230D63E10065EFD9 /* Views */,
+				AD0B9F8D230D63D70065EFD9 /* Controllers */,
+				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
+				AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */,
+				AD0B9F87230D61840065EFD9 /* Info.plist */,
 			);
-			path = "Destini-iOS13";
+			path = "BMI Calculator";
 			sourceTree = "<group>";
 		};
-		AD7631E722FC64A100C6E71B /* Controller */ = {
+		AD0B9F8D230D63D70065EFD9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631D722FC5E7E00C6E71B /* ViewController.swift */,
+				AD0B9F7D230D61800065EFD9 /* ViewController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		AD7631E822FC64AB00C6E71B /* View */ = {
+		AD0B9F8E230D63E10065EFD9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631D922FC5E7E00C6E71B /* Main.storyboard */,
+				AD0B9F7F230D61800065EFD9 /* Main.storyboard */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		AD7631EB22FC64C900C6E71B /* Model */ = {
+		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631E922FC64C100C6E71B /* Story.swift */,
-				AD7631EC22FC64E400C6E71B /* StoryBrain.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */ = {
+		AD0B9F75230D61800065EFD9 /* BMI Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini-iOS13" */;
+			buildConfigurationList = AD0B9F8A230D61840065EFD9 /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
 			buildPhases = (
-				AD7631CC22FC5E7E00C6E71B /* Sources */,
-				AD7631CD22FC5E7E00C6E71B /* Frameworks */,
-				AD7631CE22FC5E7E00C6E71B /* Resources */,
+				AD0B9F72230D61800065EFD9 /* Sources */,
+				AD0B9F73230D61800065EFD9 /* Frameworks */,
+				AD0B9F74230D61800065EFD9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Destini-iOS13";
-			productName = "Destini-iOS13";
-			productReference = AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */;
+			name = "BMI Calculator";
+			productName = "BMI Calculator";
+			productReference = AD0B9F76230D61800065EFD9 /* BMI Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD7631C822FC5E7D00C6E71B /* Project object */ = {
+		AD0B9F6E230D61800065EFD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "The App Brewery";
+				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
-					AD7631CF22FC5E7E00C6E71B = {
+					AD0B9F75230D61800065EFD9 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */;
+			buildConfigurationList = AD0B9F71230D61800065EFD9 /* Build configuration list for PBXProject "BMI Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +137,56 @@
 				en,
 				Base,
 			);
-			mainGroup = AD7631C722FC5E7D00C6E71B;
-			productRefGroup = AD7631D122FC5E7E00C6E71B /* Products */;
+			mainGroup = AD0B9F6D230D61800065EFD9;
+			productRefGroup = AD0B9F77230D61800065EFD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */,
+				AD0B9F75230D61800065EFD9 /* BMI Calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AD7631CE22FC5E7E00C6E71B /* Resources */ = {
+		AD0B9F74230D61800065EFD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7631E022FC5E8300C6E71B /* LaunchScreen.storyboard in Resources */,
-				AD7631DD22FC5E8300C6E71B /* Assets.xcassets in Resources */,
-				AD7631EF22FC656600C6E71B /* README.md in Resources */,
-				AD7631DB22FC5E7E00C6E71B /* Main.storyboard in Resources */,
+				AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */,
+				AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */,
+				AD64359A2312D0BC00E22B00 /* README.md in Resources */,
+				AD0B9F81230D61800065EFD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD7631CC22FC5E7E00C6E71B /* Sources */ = {
+		AD0B9F72230D61800065EFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7631ED22FC64E400C6E71B /* StoryBrain.swift in Sources */,
-				AD7631D822FC5E7E00C6E71B /* ViewController.swift in Sources */,
-				AD7631D422FC5E7E00C6E71B /* AppDelegate.swift in Sources */,
-				AD7631D622FC5E7E00C6E71B /* SceneDelegate.swift in Sources */,
-				AD7631EA22FC64C100C6E71B /* Story.swift in Sources */,
+				AD0B9F7E230D61800065EFD9 /* ViewController.swift in Sources */,
+				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
+				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD7631D922FC5E7E00C6E71B /* Main.storyboard */ = {
+		AD0B9F7F230D61800065EFD9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD7631DA22FC5E7E00C6E71B /* Base */,
+				AD0B9F80230D61800065EFD9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AD7631DE22FC5E8300C6E71B /* LaunchScreen.storyboard */ = {
+		AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD7631DF22FC5E8300C6E71B /* Base */,
+				AD0B9F85230D61840065EFD9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AD7631E222FC5E8300C6E71B /* Debug */ = {
+		AD0B9F88230D61840065EFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		AD7631E322FC5E8300C6E71B /* Release */ = {
+		AD0B9F89230D61840065EFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,36 +308,34 @@
 			};
 			name = Release;
 		};
-		AD7631E522FC5E8300C6E71B /* Debug */ = {
+		AD0B9F8B230D61840065EFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DW95AC3T7J;
-				INFOPLIST_FILE = "Destini-iOS13/Info.plist";
+				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.danielbyun.Destini-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AD7631E622FC5E8300C6E71B /* Release */ = {
+		AD0B9F8C230D61840065EFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DW95AC3T7J;
-				INFOPLIST_FILE = "Destini-iOS13/Info.plist";
+				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.danielbyun.Destini-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */ = {
+		AD0B9F71230D61800065EFD9 /* Build configuration list for PBXProject "BMI Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD7631E222FC5E8300C6E71B /* Debug */,
-				AD7631E322FC5E8300C6E71B /* Release */,
+				AD0B9F88230D61840065EFD9 /* Debug */,
+				AD0B9F89230D61840065EFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini-iOS13" */ = {
+		AD0B9F8A230D61840065EFD9 /* Build configuration list for PBXNativeTarget "BMI Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD7631E522FC5E8300C6E71B /* Debug */,
-				AD7631E622FC5E8300C6E71B /* Release */,
+				AD0B9F8B230D61840065EFD9 /* Debug */,
+				AD0B9F8C230D61840065EFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD7631C822FC5E7D00C6E71B /* Project object */;
+	rootObject = AD0B9F6E230D61800065EFD9 /* Project object */;
 }
